@@ -1,0 +1,244 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_resblock_ir
+Args:            
+  - Callee:          'resblock(float (*) [56][56], float (*) [56][56])'
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_resblock_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                   Line: 15, Column: 19 }
+Function:        _Z8resblockPA56_A56_fS1_
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '200704'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        input3seq
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          ' '
+  - LoopLoc:         'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp:15:19'
+  - String:          ' '
+  - Function:        'resblock(float (*) [56][56], float (*) [56][56])'
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 19, Column: 20 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.load.5
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                   Line: 15, Column: 19 }
+Function:        _Z8resblockPA56_A56_fS1_
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '200704'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        output4seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          ' '
+  - LoopLoc:         'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp:15:19'
+  - String:          ' '
+  - Function:        'resblock(float (*) [56][56], float (*) [56][56])'
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 19, Column: 18 }
+  - OrigDirection:   write
+  - OrigID:          for.inc.store.9
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualThreshold
+DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                   Line: 15, Column: 19 }
+Function:        _Z8resblockPA56_A56_fS1_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            float
+  - String:          ' size is greater than or equal to the max_widen_bitwidth threshold of '
+  - Threshold:       '0'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 15, Column: 19 }
+  - OrigDirection:   read
+  - OrigID:          input3seq
+  - ArrayName:       input
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_17_3
+  - String:          ' '
+  - LoopLoc:         'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp:17:30'
+  - String:          ' '
+  - Function:        'resblock(float (*) [56][56], float (*) [56][56])'
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            GreaterOrEqualThreshold
+DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                   Line: 15, Column: 19 }
+Function:        _Z8resblockPA56_A56_fS1_
+Args:            
+  - String:          'Could not widen since type '
+  - Type:            float
+  - String:          ' size is greater than or equal to the max_widen_bitwidth threshold of '
+  - Threshold:       '0'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 15, Column: 19 }
+  - OrigDirection:   write
+  - OrigID:          output4seq
+  - ArrayName:       output
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_17_3
+  - String:          ' '
+  - LoopLoc:         'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp:17:30'
+  - String:          ' '
+  - Function:        'resblock(float (*) [56][56], float (*) [56][56])'
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                   Line: 15, Column: 19 }
+Function:        _Z8resblockPA56_A56_fS1_
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of length '
+  - Length:          '200704'
+  - String:          ' and bit width '
+  - Width:           '32'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          ' '
+  - LoopLoc:         'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp:15:19'
+  - String:          ' '
+  - Function:        'resblock(float (*) [56][56], float (*) [56][56])'
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                   Line: 15, Column: 19 }
+Function:        _Z8resblockPA56_A56_fS1_
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       reads
+  - String:          ' of length '
+  - Length:          '200704'
+  - String:          ' and bit width '
+  - Width:           '32'
+  - String:          ' in loop '''
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          '''('
+  - LoopLoc:         'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp:15:19'
+  - String:          ')'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                   Line: 15, Column: 19 }
+Function:        _Z8resblockPA56_A56_fS1_
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '200704'
+  - String:          ' and bit width '
+  - Width:           '32'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq1
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          ' '
+  - LoopLoc:         'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp:15:19'
+  - String:          ' '
+  - Function:        'resblock(float (*) [56][56], float (*) [56][56])'
+    DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp', 
+                   Line: 15, Column: 19 }
+Function:        _Z8resblockPA56_A56_fS1_
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '200704'
+  - String:          ' and bit width '
+  - Width:           '32'
+  - String:          ' in loop '''
+  - LoopName:        VITIS_LOOP_15_1
+  - String:          '''('
+  - LoopLoc:         'X:/Xilinx/workspace/resblock_hls/src/resblock.cpp:15:19'
+  - String:          ')'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...

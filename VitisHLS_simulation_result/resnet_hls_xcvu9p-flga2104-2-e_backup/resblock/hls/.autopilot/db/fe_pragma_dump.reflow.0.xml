@@ -1,0 +1,6 @@
+<pragmas>
+<pragma file="X:/Xilinx/workspace/resblock_hls/src/resblock.cpp" line="18" pragmaType="pipeline" parentfunction="resblock" off="0" ii="1" rewind="0" style=""/>
+<pragma file="X:/Xilinx/workspace/resblock_hls/src/resblock.cpp" line="10" pragmaType="interface" parentfunction="resblock" mode="m_axi" port="input" bundle="gmem" offset="slave" name="" depth="-1" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="X:/Xilinx/workspace/resblock_hls/src/resblock.cpp" line="11" pragmaType="interface" parentfunction="resblock" mode="m_axi" port="output" bundle="gmem" offset="slave" name="" depth="-1" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
+<pragma file="X:/Xilinx/workspace/resblock_hls/src/resblock.cpp" line="12" pragmaType="interface" parentfunction="resblock" mode="s_axilite" port="" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
+</pragmas>

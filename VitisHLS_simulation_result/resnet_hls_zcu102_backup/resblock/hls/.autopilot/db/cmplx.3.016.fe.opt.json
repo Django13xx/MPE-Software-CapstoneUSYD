@@ -1,0 +1,11 @@
+{
+  "0": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "resblock.cpp",
+    "fileloc": 8,
+    "instructions": 43,
+    "name": "resblock",
+    "total_instructions": 43
+  }
+}

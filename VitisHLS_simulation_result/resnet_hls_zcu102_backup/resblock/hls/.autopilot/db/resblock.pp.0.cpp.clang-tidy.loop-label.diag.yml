@@ -1,0 +1,67 @@
+---
+MainSourceFile:  'X:/Xilinx/unified_workspace/resnet_hls_zcu102/resblock/hls/.autopilot/db/resblock.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'X:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'X:\Xilinx\unified_workspace\resnet_hls_zcu102\resblock\hls\.autopilot\db\resblock.pp.0.cpp'
+        Offset:          283754
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'X:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'X:\Xilinx\unified_workspace\resnet_hls_zcu102\resblock\hls\.autopilot\db\resblock.pp.0.cpp'
+        Offset:          284220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'X:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'X:\Xilinx\unified_workspace\resnet_hls_zcu102\resblock\hls\.autopilot\db\resblock.pp.0.cpp'
+        Offset:          284687
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        'X:\Xilinx\Vitis\2024.2\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'X:\Xilinx\unified_workspace\resnet_hls_zcu102\resblock\hls\.autopilot\db\resblock.pp.0.cpp'
+        Offset:          568045
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_15_1:  '
+    FileOffset:      15
+    FilePath:        'X:\Xilinx\workspace\resblock_hls\src\resblock.cpp'
+    Replacements:    
+      - FilePath:        'X:\Xilinx\unified_workspace\resnet_hls_zcu102\resblock\hls\.autopilot\db\resblock.pp.0.cpp'
+        Offset:          936157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_15_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_2:  '
+    FileOffset:      16
+    FilePath:        'X:\Xilinx\workspace\resblock_hls\src\resblock.cpp'
+    Replacements:    
+      - FilePath:        'X:\Xilinx\unified_workspace\resnet_hls_zcu102\resblock\hls\.autopilot\db\resblock.pp.0.cpp'
+        Offset:          936196
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_17_3:  '
+    FileOffset:      17
+    FilePath:        'X:\Xilinx\workspace\resblock_hls\src\resblock.cpp'
+    Replacements:    
+      - FilePath:        'X:\Xilinx\unified_workspace\resnet_hls_zcu102\resblock\hls\.autopilot\db\resblock.pp.0.cpp'
+        Offset:          936239
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_17_3: '
+...

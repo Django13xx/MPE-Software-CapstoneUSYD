@@ -1,0 +1,3 @@
+relativeroot=X:/Xilinx/unified_workspace/resnet_hls
+original_argv=-c --mode hls --config X:\Xilinx\unified_workspace\resnet_hls\hls_config.cfg --work_dir resblock 
+

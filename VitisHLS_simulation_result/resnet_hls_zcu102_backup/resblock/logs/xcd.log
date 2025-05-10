@@ -1,0 +1,25 @@
+05/10/25 17:35:52: Running xcd server. This server was built by gradle.
+05/10/25 17:35:52: Server was asked to start on port: '51695'
+05/10/25 17:35:52: Server is using token UUID: '97eb63ce-5507-4dec-83c3-10f8709a0d1b'
+05/10/25 17:35:52: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+05/10/25 17:35:52: Attempting to start server on port '51695'
+05/10/25 17:35:52: Running Dispatch Server
+05/10/25 17:35:52: Version 2.2.0
+05/10/25 17:35:54: Dispatch Server: Accepted socket connection from client
+05/10/25 17:35:54: Starting Socket connection
+05/10/25 17:35:54: EXCHANGE_TOKEN received, server token: 97eb63ce-5507-4dec-83c3-10f8709a0d1b, passed token: 97eb63ce-5507-4dec-83c3-10f8709a0d1b
+05/10/25 17:35:54: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+05/10/25 17:35:54: SESSION_MGR: creating session with session uuid: '26ec4553-d130-4e9d-a1db-b3c80555f51c' and name 'v++_compile_resblock'
+05/10/25 17:35:54: KERNEL_SVC: creating session with uuid: '26ec4553-d130-4e9d-a1db-b3c80555f51c' and name 'v++_compile_resblock'
+05/10/25 17:35:54: GUIDANCE_SMGR: creating guidance session with uuid: '26ec4553-d130-4e9d-a1db-b3c80555f51c' and name 'v++_compile_resblock'
+05/10/25 17:35:54: SYSTEM_DIAGRAM: creating session with uuid: '26ec4553-d130-4e9d-a1db-b3c80555f51c' and name 'v++_compile_resblock'
+05/10/25 17:35:58: Dispatch Server: Accepted socket connection from client
+05/10/25 17:35:58: Starting Socket connection
+05/10/25 17:36:13: SESSION_MGR: closing session for UUID '26ec4553-d130-4e9d-a1db-b3c80555f51c' with name 'v++_compile_resblock'
+05/10/25 17:36:13: KERNEL_SVC: closing session for UUID '26ec4553-d130-4e9d-a1db-b3c80555f51c' with name 'v++_compile_resblock'
+05/10/25 17:36:13: GUIDANCE_SMGR: closing session for UUID '26ec4553-d130-4e9d-a1db-b3c80555f51c' with name 'v++_compile_resblock'
+05/10/25 17:36:13: SYSTEM_DIAGRAM: closing session for UUID '26ec4553-d130-4e9d-a1db-b3c80555f51c' with name 'v++_compile_resblock'
+05/10/25 17:36:13: STOP_SERVER received, server token: 97eb63ce-5507-4dec-83c3-10f8709a0d1b, passed token: 97eb63ce-5507-4dec-83c3-10f8709a0d1b
+05/10/25 17:36:13: Socket received request to stop server.
+05/10/25 17:36:13: Dispatch Server: do_await_stop
+05/10/25 17:36:13: SERVER: destructor for server bound to port 51695

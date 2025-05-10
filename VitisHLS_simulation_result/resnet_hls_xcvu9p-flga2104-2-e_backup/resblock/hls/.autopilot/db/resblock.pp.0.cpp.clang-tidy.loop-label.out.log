@@ -1,0 +1,35 @@
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:2386:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:2386:5: note: FIX-IT applied suggested code changes
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:2400:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:2400:5: note: FIX-IT applied suggested code changes
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:2414:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:2414:5: note: FIX-IT applied suggested code changes
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:4048:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1248_1: 
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:4048:7: note: FIX-IT applied suggested code changes
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:5843:2: warning: Added loop label VITIS_LOOP_15_1:   [xilinx-label-all-loops]
+ for (int c = 0; c < 64; c++) {
+ ^~~
+ VITIS_LOOP_15_1: 
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:5843:2: note: FIX-IT applied suggested code changes
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:5844:9: warning: Added loop label VITIS_LOOP_16_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < 56; i++) {
+        ^~~
+        VITIS_LOOP_16_2: 
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:5844:9: note: FIX-IT applied suggested code changes
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:5845:13: warning: Added loop label VITIS_LOOP_17_3:   [xilinx-label-all-loops]
+            for (int j = 0; j < 56; j++) {
+            ^~~
+            VITIS_LOOP_17_3: 
+X:\Xilinx\unified_workspace\resnet_hls\resblock\hls\.autopilot\db\resblock.pp.0.cpp:5845:13: note: FIX-IT applied suggested code changes

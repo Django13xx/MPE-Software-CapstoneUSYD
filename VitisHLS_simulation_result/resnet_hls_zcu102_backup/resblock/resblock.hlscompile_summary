@@ -1,0 +1,245 @@
+<ENTRY>
+{
+ "thisFile": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\resblock.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/10/25 17:35:54",
+ "timestampMillis": "1746862554741",
+ "buildStep": {
+  "cmdId": "781c11cd-1d52-49e6-86fd-64fd01175f6f",
+  "name": "v++",
+  "logFile": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\logs\\resblock.steps.log",
+  "commandLine": "X:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config X:\\Xilinx\\unified_workspace\\resnet_hls_zcu102\\hls_config.cfg --work_dir resblock ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "X:\\Xilinx\\unified_workspace\\resnet_hls_zcu102\\hls_config.cfg",
+   "--work_dir",
+   "resblock"
+  ],
+  "iniFiles": [
+   {
+    "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\hls_config.cfg",
+    "content": "part=xczu9eg-ffvb1156-2-e\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=resblock\nsyn.file=X:/Xilinx/workspace/resblock_hls/src/resblock.cpp\ntb.file=X:/Xilinx/workspace/resblock_hls/src/resblock_tb.cpp\nclock=10ns"
+   }
+  ],
+  "cwd": "X:\\Xilinx\\unified_workspace\\resnet_hls_zcu102"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/10/25 17:35:54",
+ "timestampMillis": "1746862554742",
+ "status": {
+  "cmdId": "781c11cd-1d52-49e6-86fd-64fd01175f6f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/10/25 17:35:58",
+ "timestampMillis": "1746862558659",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "resblock",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "X:/Xilinx\\workspace\\resblock_hls\\src\\resblock.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/10/25 17:35:58",
+ "timestampMillis": "1746862558660",
+ "buildStep": {
+  "cmdId": "86eade76-0c0a-4501-80ab-132ce2e2f08f",
+  "name": "",
+  "logFile": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "X:\\Xilinx\\unified_workspace\\resnet_hls_zcu102"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/10/25 17:35:58",
+ "timestampMillis": "1746862558660",
+ "status": {
+  "cmdId": "86eade76-0c0a-4501-80ab-132ce2e2f08f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/10/25 17:35:58",
+ "timestampMillis": "1746862558660",
+ "report": {
+  "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/10/25 17:35:58",
+ "timestampMillis": "1746862558661",
+ "report": {
+  "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/10/25 17:35:58",
+ "timestampMillis": "1746862558661",
+ "report": {
+  "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/10/25 17:36:13",
+ "timestampMillis": "1746862573334",
+ "report": {
+  "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/10/25 17:36:13",
+ "timestampMillis": "1746862573334",
+ "report": {
+  "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/10/25 17:36:13",
+ "timestampMillis": "1746862573335",
+ "report": {
+  "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/10/25 17:36:13",
+ "timestampMillis": "1746862573335",
+ "status": {
+  "cmdId": "86eade76-0c0a-4501-80ab-132ce2e2f08f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/10/25 17:36:13",
+ "timestampMillis": "1746862573438",
+ "status": {
+  "cmdId": "781c11cd-1d52-49e6-86fd-64fd01175f6f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/10/25 17:36:13",
+ "timestampMillis": "1746862573463",
+ "report": {
+  "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\reports\\v++_compile_resblock_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/10/25 17:36:13",
+ "timestampMillis": "1746862573463",
+ "report": {
+  "path": "X:/Xilinx\\unified_workspace\\resnet_hls_zcu102\\resblock\\reports\\.db\\v++_compile_resblock_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
