@@ -117,9 +117,6 @@ vai_c_xir -x quantize_result/ResNet_int.xmodel \
 
 ### Supervisor: Professor David Boland
 
-## Live Demo
-Coming soon...
-
 ## License
 MIT License
 Free to use, copy, modify, and distribute for academic and non-commercial purposes.
